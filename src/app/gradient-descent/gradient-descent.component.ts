@@ -4,8 +4,8 @@ import * as P5 from 'p5';
 
 @Component({
   selector: 'app-gradient-descent',
-  templateUrl: './gradient-descent.component.html',
-  styleUrls: ['./gradient-descent.component.scss'],
+  templateUrl: 'gradient-descent.component.html',
+  styleUrls: ['gradient-descent.component.scss'],
 })
 export class GradientDescentComponent implements OnInit {
   private x_vals = [];
